@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .insta-post {
+    width: 400px;
+    background-color: #121212;
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .profile-pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .post-image img {
+    width: 100%;
+    display: block;
+  }
+  
+  .actions {
+    padding: 10px;
+    font-size: 1.4em;
+  }
+  
+  .likes, .caption, .comment, .date {
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+  
+  .caption strong,
+  .comment strong {
+    margin-right: 5px;
+  }
+  
+  .date {
+    color: gray;
+    font-size: 0.8em;
+  }
+  
