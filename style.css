@@ -7,6 +7,12 @@ body {
     padding: 40px;
   }
   
+  .insight {
+    color : blue;
+    text-align: center;
+    font-size: 13px;
+  }
+
   .insta-post {
     width: 400px;
     background-color: #121212;
@@ -37,23 +43,43 @@ body {
     display: block;
   }
   
-  .actions {
-    padding: 10px;
-    font-size: 1.4em;
-  }
-  
-  .likes, .caption, .comment, .date {
-    padding: 5px 10px;
-    font-size: 0.9em;
-  }
-  
-  .caption strong,
-  .comment strong {
-    margin-right: 5px;
-  }
-  
-  .date {
-    color: gray;
-    font-size: 0.8em;
-  }
-  
+.icon-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.left-icons span {
+  margin-right: 15px;
+}
+
+.right-icon {
+  margin-left: auto;
+}
+
+
+.likes, .caption, .comment, .date {
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+.date {
+  color: gray;
+  font-size: 0.8em;
+}
+.comment-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-line div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comment-line span {
+  margin-left: 10px;
+}
